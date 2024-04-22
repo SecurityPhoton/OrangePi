@@ -23,7 +23,7 @@ This project demonstrates how to use a Orange Pi along with an MQ-3 alcohol sens
     ```
 4. Run the compiled program:
     ```
-    ./alcohol_detection
+    ./mq3-sensor
     ```
 
 ## Usage
