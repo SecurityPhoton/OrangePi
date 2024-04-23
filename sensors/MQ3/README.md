@@ -11,7 +11,7 @@ This project demonstrates how to use a Orange Pi along with an MQ-3 alcohol sens
 
 ## Circuit Diagram
 
-![Circuit Diagram](PinOUT.jpg)
+![Circuit Diagram](PinOUT0.jpg)
 
 ## Installation
 
