@@ -11,7 +11,7 @@ setuptools.setup(
     description="A library to integrate the MFRC522 RFID readers with the Raspberry Pi and OrangePI",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/SecurityPhoton/OrangePi,
+    url="https://github.com/SecurityPhoton/OrangePi",
     packages=setuptools.find_packages(),
     install_requires=[
         'spidev'
