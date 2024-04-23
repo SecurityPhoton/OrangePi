@@ -13,9 +13,6 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/SecurityPhoton/OrangePi",
     packages=setuptools.find_packages(),
-    install_requires=[
-        'spidev'
-        ],
     classifiers=[
         "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3",
