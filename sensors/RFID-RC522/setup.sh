@@ -9,4 +9,5 @@ python3 -m venv venv
 # Activate the virtual environment
 source venv/bin/activate
 # Install the library
+pip install spidev
 python3 setup.py install
