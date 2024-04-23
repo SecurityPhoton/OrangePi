@@ -28,7 +28,7 @@ source venv/bin/activate
 3. Run `python setup.py install` in the top level directory.
 
 P.S. Consult the ![file](/sensors/RFID-RC522/setup.sh) for quick install option:
-`wget https://raw.githubusercontent.com/SecurityPhoton/OrangePi/main/sensors/RFID-RC522/setup.sh | bash setup.sh` 
+`wget https://raw.githubusercontent.com/SecurityPhoton/OrangePi/main/sensors/RFID-RC522/setup.sh && bash setup.sh` 
 
 ## Example Code
 
