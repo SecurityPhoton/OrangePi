@@ -50,4 +50,4 @@ except KeyboardInterrupt:
     GPIO.cleanup()
     raise
 ```
-You can use the read-rfid.py file for reference. This exapmle read rfid card in loop and checks if the correct card is placed. It also light the external leds (but you can ommit this section and comment it out).
+You can use the ![read-rfid.py](read-rfid.py) file for reference. This exapmle read rfid card in loop and checks if the correct card is placed. It also light the external leds (but you can ommit this section and comment it out) for demo. The 3 led board lights Green led if card is OK and red if not recognised card is used.
