@@ -16,7 +16,7 @@ Note that first 4 pins are required, and also 2 power pins (3.3v and GND). Other
 ## Installation
 
 1. Clone the repo. 
-` mkdir ~/orangepi && git clone https://github.com/SecurityPhoton/OrangePi.git ~/orangepi`
+` mkdir ~/opirc522 && git clone https://github.com/SecurityPhoton/OrangePi.git ~/opirc522`
 2. Make venv and activate it. 
 
 ```bash
