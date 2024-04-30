@@ -1,9 +1,9 @@
 #!/bin/bash
 # Clone the repository
-mkdir ~/orangepi
-git clone https://github.com/SecurityPhoton/OrangePi.git ~/orangepi
+mkdir ~/opirc522
+git clone https://github.com/SecurityPhoton/OrangePi.git ~/opirc522
 # Navigate into the cloned repository folder
-cd ~/orangepi/sensors/RFID-RC522
+cd ~/opirc522/sensors/RFID-RC522
 # Create a virtual environment
 python3 -m venv venv
 # Activate the virtual environment
