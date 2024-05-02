@@ -8,13 +8,13 @@ Orange Pi projects. Orange Pi zero 3 is used as test board.
 
 ## Tips
 
-### How to disable blinking leds
+### How to disable blinking leds :flashlight:
 
 If you want enable and disable the leds on the board, for example disable blinking status green led you should use this command:
 
-`echo none > /sys/class/leds/green_led/trigger`
+`echo none > /sys/class/leds/green_led/trigger` :low_brightness:
 and to revert all back:
-`echo heartbeat > /sys/class/leds/green_led/trigger`
+`echo heartbeat > /sys/class/leds/green_led/trigger` :high_brightness:
 
 You can make an alias to enable and disable leds on the run, simply add lines to .bashrc file:
 ```
