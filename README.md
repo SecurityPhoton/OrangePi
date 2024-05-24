@@ -24,3 +24,8 @@ alias disable_led='echo none > /sys/class/leds/green_led/trigger'
 alias enable_led='echo heartbeat > /sys/class/leds/green_led/trigger'
 ```
 and execute `source ~/.bashrc`. This allows any changes or additions made to the ~/.bashrc file to take effect immediately, without needing to start a new shell session.
+
+To disable permanently add line to /etc/rc.local
+```
+echo none > /sys/class/leds/green_led/trigger
+```
