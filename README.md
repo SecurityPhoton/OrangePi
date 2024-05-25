@@ -29,3 +29,24 @@ To disable permanently add line to /etc/rc.local
 ```
 echo none > /sys/class/leds/green_led/trigger
 ```
+### Jellyfin Mediaserver :movie_camera: setup
+You can use a docker image of Jellyfin mediaserver for home :house: use. Prepare the external disk :minidisc: and mount it to SBC (or you can use blkid for uid of disk) and add /etc/fstab:
+```
+UUID=12E3FB44C8FB1C1B /media ntfs defaults 0 0
+```
+then run docker :whale: container
+```
+docker run -d \
+ --name jellyfin \
+ --net=host \
+ --volume jellyfin-config:/config \
+ --volume jellyfin-cache:/cache \
+ --mount type=bind,source=/media,target=/media \
+ --restart=unless-stopped \
+ jellyfin/jellyfin
+```
+After start use this link for initial config (change to your board ip address):
+```
+http://your.board.ip.address:8096/web/index.html#!/wizardstart.html
+```
+Consult this ![link](https://jellyfin.org/docs/general/installation/container) for more unstall options.
